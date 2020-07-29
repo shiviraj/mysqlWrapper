@@ -1,0 +1,23 @@
+{
+  "name": "mysqlTrial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f config/.pro_env nodemon server.js",
+    "test": "env-cmd -f config/.test_env mocha --exit",
+    "dev": "env-cmd -f config/.pro_env nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2",
+    "env-cmd": "^10.1.0"
+  }
+}

@@ -1,0 +1,8 @@
+features to be implemented
+-------------------------- 
+  count
+  findById
+  find
+  UpdateById
+  deleteById
+  
