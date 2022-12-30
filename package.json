@@ -16,7 +16,7 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "supertest": "^4.0.2",
     "env-cmd": "^10.1.0"
   }
